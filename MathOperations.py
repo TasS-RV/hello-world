@@ -6,6 +6,12 @@ def factorial(x):
     else:
         return x*factorial(x-1)
 
+def even_checker(n):
+    if n%2 == True:
+        return "Number is Even"
+    else:
+        return "Number is Odd"
+
 #Testing:
 nums = [0,1,6,13, 23]
 for i in nums:
