@@ -47,5 +47,6 @@ while state != "N":
 
     print("Sorted list of college abbreviations: ",abb_)
 
-
+#Problem with above while loop - messy to print out the whole sorted list for each college addition one by one
+#Build in separate while iteration in a sub-program: to collect all colleges and parse into overall dict.
     
